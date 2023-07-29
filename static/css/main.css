@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'poppins', serif;
+  scroll-behavior: smooth;
+}
+
+nav {
+  font-weight: 600;
+}
+
+.hero_main-left {
+  height: 100vh !important;
+  padding-left: 2rem;
+}
+
+.colored_line {
+    width: 100%;
+    background: #e4832f;
+    height: 5px;
+}
+
+.hero_main-left h1 {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.hero_main-right {
+  background: url('/static/img/Word\ Art.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.features {
+  background: #213143;
+  height: 100vh;
+}
+
+@media only screen and (max-width: 425px) {
+  .navbar-brand img {
+    width: 90px;
+  }
+}
+
+.navbar-brand img {
+  width: 60%;
+}
